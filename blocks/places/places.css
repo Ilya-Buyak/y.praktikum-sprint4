@@ -1,0 +1,12 @@
+@import url('__place/place.css');
+.places {
+  max-width: 246rem;
+  margin: 0 auto;
+  background-color: #2A2C2F;
+  padding-bottom: 25.5rem;
+}
+@media screen and (max-width: 767px) {
+  .places {
+    padding-bottom: 22.75rem;
+  }
+}

@@ -1,0 +1,20 @@
+@import url('_span-accent/intro__additional-text_span-accent.css');
+.intro__additional-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 3.25rem;
+  line-height: 5rem;
+  color: white;
+  margin: 0;
+}
+.intro__additional-text:last-child {
+  margin-bottom: 24.25rem;
+}
+@media screen and (max-width: 767px) {
+  .intro__additional-text {
+    font-size: 3rem;
+    line-height: 4.75rem;
+  }
+  .intro__additional-text:last-child {
+    margin-bottom: 16rem;
+  }
+}

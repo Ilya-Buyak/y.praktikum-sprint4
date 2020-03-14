@@ -1,0 +1,22 @@
+.photo-grid__item {
+  width: 100%;
+  opacity: 1;
+}
+.photo-grid__item:hover {
+  color: black;
+  opacity: .5;
+  transition: 1s;
+}
+.photo-grid__item:last-child {
+  margin-bottom: 23rem;
+}
+@media screen and (max-width: 1024px) {
+  .photo-grid__item:last-child {
+    margin-bottom: 25.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .photo-grid__item:last-child {
+    margin-bottom: 12.25rem;
+  }
+}

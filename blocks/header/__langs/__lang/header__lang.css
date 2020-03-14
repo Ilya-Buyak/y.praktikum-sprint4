@@ -1,0 +1,26 @@
+@import url('_selected//header__lang_selected.css');
+.header__lang {
+  color: white;
+ 
+  height: 23px;
+  font-family: 'Inter','Arial', sans-serif;
+  font-size: 6em;
+  line-height: .95em;
+  text-align: right;
+  margin-right: .75em;
+  text-decoration: none;
+}
+.header__lang:hover {
+  color: #2F80ED;
+  opacity: .3;
+  transition: 1s;
+}
+.header__langs:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 375px) {
+  .header__lang {
+    font-size: 4.5rem;
+    margin-right: .8889em;
+  }
+}

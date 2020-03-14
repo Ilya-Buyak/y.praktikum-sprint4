@@ -1,0 +1,14 @@
+.comments__quote {
+  font-family: 'Inter','Arial',sans-serif;
+  font-size: 3.5rem;
+  line-height: 6rem;
+  color: #FFFFFF;
+  margin: 0;
+}
+@media screen and (max-width: 1023px) {
+  .comments__quote {
+    font-size: 4rem;
+    line-height: 5.75rem;
+    order: 1;
+  }
+}

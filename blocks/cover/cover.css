@@ -1,0 +1,10 @@
+@import url('__link/cover__link.css');
+.cover {
+  max-width: 1184px;
+  min-height: 216px;
+  margin: 0 auto 13.51%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
